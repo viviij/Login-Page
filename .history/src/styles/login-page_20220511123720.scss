@@ -1,0 +1,29 @@
+#auth {
+    display: flex;
+    align-items: stretch;
+    height: 105vh;
+    margin: 0;
+    padding: 0;
+
+  aside {
+
+    flex: 5;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+
+  
+  main {
+    flex: 5;
+  
+    padding: 0 32px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

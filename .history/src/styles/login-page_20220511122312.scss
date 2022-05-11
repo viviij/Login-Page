@@ -1,0 +1,33 @@
+#auth {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+
+  aside {
+    flex: 3;
+  
+    background: var(--base-color);
+    color: var(--text-color);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    padding: 298px 80px;
+  }
+  
+  img {
+    max-width: 520px;
+ 
+  }
+  
+  main {
+    flex: 8;
+  
+    padding: 0 32px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
