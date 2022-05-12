@@ -35,14 +35,13 @@ export function LoginPage() {
           <button className='SignIn'>
             Sign In
           </button>
-          <div className="SignIn-google">
-            <button>
-              <i><img src={googleIconIMG} alt="" /></i>
-              Sign in with Google
-            </button>
-          </div>
 
-          <p>Don't have an account? <a href="#">Sign up for free!</a></p>
+          <button className='SignIn-google'>
+            <i><img src={googleIconIMG} alt="" /></i>
+            <span>Sign in with Google</span>
+          </button>
+
+          <p className='Signup'>Don't have an account? <a href="#">Sign up for free!</a></p>
 
         </div>
       </main>
