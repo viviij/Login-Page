@@ -1,0 +1,184 @@
+#auth {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  
+  main {
+    flex: 5;
+  
+    margin-left: 3.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main-content {
+      .welcome {
+        margin-bottom: 2rem;
+        strong {
+        
+          text-shadow: -2px 6px 5px rgba(3, 3, 3, 0.32);
+          font-family: 'Montserrat', sans-serif;
+          
+          font-size: 32px;
+
+        }
+
+        >p {
+          font-family: 'Raleway', sans-serif;
+          margin-top: 0.5rem;
+          margin-left: 0.1rem;
+          text-shadow: -1px 4px 3px rgba(91, 91, 91, 0.27);
+        }
+      } 
+      
+      .form {
+
+        >p {
+          margin: 1rem 1rem 1rem 0;
+          color: var(--text-color);
+          font: 700 1rem 'Raleway', sans-serif;
+       
+        }
+        input {
+          -webkit-box-shadow: -1px 1px 12px 0px rgba(235, 235, 235, 0.27);
+          -moz-box-shadow: -1px 1px 12px 0px rgba(244, 242, 242, 0.27);
+          box-shadow: -1px 1px 12px 0px rgba(228, 227, 227, 0.27);
+
+          background-color: rgba(255, 255, 255, 0.9);
+          border-style: none;
+
+          outline: 0;
+          border-radius: 10px 10px 10px 10px;
+          
+
+          width:300px;
+          height: 50px;
+          padding: 3% 10%;
+        }
+        
+      }
+      .checkbox {   
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.95rem;
+        input {
+          left: 25px;
+        }
+        span {
+          margin-left: 0.4rem;
+        }
+        
+        a {
+          margin-left: 3.45rem;
+          color: var(--text-color);
+          transition: 0.3s;
+
+          &:hover {
+            filter: brightness(0.9);
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .SignIn  {
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(234, 69, 76, 0.43);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(234, 69, 76, 0.43);
+        box-shadow: 0px 0px 15px 0px rgba(234, 69, 76, 0.43);
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.9);
+        background-color: var(--button-color);
+
+        height: 50px;
+        
+        border-radius: 14px 14px 14px 14px;
+        padding: 0 16px;
+        border: 0px solid #a8a8b3;
+        cursor: pointer;
+
+        transition: 0.4s;
+        &:hover {
+          filter: brightness(0.9);
+    
+        }
+
+        
+      }
+
+      .SignIn-google {
+
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9rem;
+        color: var(--text-color);
+        background-color: rgba(255, 255, 255, 0.9);
+        
+        
+        height: 50px;
+        border-radius: 14px 14px 14px 14px;
+        border: 1px solid #a8a8b3;
+        
+        
+        cursor: pointer;
+        transition: 0.4s;
+        
+        &:hover {
+          filter: brightness(0.9);
+    
+        }
+        
+        i {
+          position: absolute;
+          padding: 0.5rem;
+          
+        }
+
+        span {
+          font-family: 'Poppins', sans-serif;
+          margin-left: 3rem;
+          padding: 0 1px;
+   
+          line-height: 43px;
+          text-align: center;  
+       
+        }
+
+      }
+
+      .Signup {
+        font-size: 0.8rem;
+        font-family: 'Poppins', sans-serif;
+        color: rgba(89, 89, 89, 1);
+        
+        margin-left: 1.4rem;
+        a {
+          
+          color: rgba(234, 69, 76, 1);
+          transition: 0.3s;
+          &:hover {
+            filter: brightness(0.9);
+            text-decoration: underline;
+          }
+        }
+      }
+      
+
+
+    }
+  }
+
+
+  aside {
+    background-image: url(../assets/login-page/Ilustration.svg);
+    background-size: 720px 690px ;
+    background-repeat: no-repeat;
+    
+    flex: 9;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+}
