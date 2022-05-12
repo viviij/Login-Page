@@ -67,23 +67,11 @@
       }
 
       .SignIn  {
-        font-family: 'Raleway', sans-serif;
-        font-size: 0.9rem;
-        color: rgba(255, 255, 255, 0.9);
-        background-color: var(--button-color);
-
+        border-radius: 10px 10px 10px 10px;
         height: 50px;
-        
-        border-radius: 14px 14px 14px 14px;
+        border-radius: 8px;
         padding: 0 16px;
         border: 1px solid #a8a8b3;
-        cursor: pointer;
-
-        transition: 0.4s;
-        &:hover {
-          filter: brightness(0.9);
-    
-        }
       }
       
 

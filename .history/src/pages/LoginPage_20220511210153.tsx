@@ -7,35 +7,29 @@ export function LoginPage() {
     <div id="auth">
       <main>
         <div className="main-content grid">
-          <div className="welcome">
-            <strong>WELCOME BACK</strong>
-            <p>Welcome back! Please enter your detalis</p>
-          </div>
-         
+          <strong>WELCOME BACK</strong>
+          <p>Welcome back! Please enter your detalis</p>
           <div className="form">
             <p>Email</p>
-            <input type='text' name='Email' placeholder='Enter your email' />
-             
-
-            
+            <input type='text' name='Email' placeholder='Email' />
             <p>Password</p>
-            <input type="text" name='Password' placeholder='*******'
-            checked />
+            <div>
+              <input type="text" name='Password' placeholder='Password'
+              checked />
 
+
+            </div>
           </div>
           <div className="checkbox">
-            
-        
-            <input type="checkbox" />
-            <span>Remember me</span>
-       
+            <input type="checkbox" id='remember-me' name="remember-me" />
+            <label htmlFor="Password">Remember me</label>
 
             <a href="#">Forgot password</a>
           </div>
-          <button className='SignIn'>
+          <button>
             Sign In
           </button>
-          <div className="SignIn-google">
+          <div className="login-google">
             <button>
               <i><img src={googleIconIMG} alt="" /></i>
               Sign in with Google

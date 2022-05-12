@@ -25,10 +25,10 @@ export function LoginPage() {
           </div>
           <div className="checkbox">
             
-        
+          <label>
             <input type="checkbox" />
             <span>Remember me</span>
-       
+          </label>  
 
             <a href="#">Forgot password</a>
           </div>

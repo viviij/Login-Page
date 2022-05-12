@@ -24,11 +24,8 @@ export function LoginPage() {
 
           </div>
           <div className="checkbox">
-            
-        
-            <input type="checkbox" />
-            <span>Remember me</span>
-       
+            <input type="checkbox" id='remember-me' name="remember-me" />
+            <p>Remember me</p>
 
             <a href="#">Forgot password</a>
           </div>

@@ -14,21 +14,18 @@ export function LoginPage() {
          
           <div className="form">
             <p>Email</p>
-            <input type='text' name='Email' placeholder='Enter your email' />
-             
-
-            
+            <input type='text' name='Email' placeholder='Email' />
             <p>Password</p>
-            <input type="text" name='Password' placeholder='*******'
-            checked />
+            <div>
+              <input type="text" name='Password' placeholder='*******'
+              checked />
 
+
+            </div>
           </div>
           <div className="checkbox">
-            
-        
-            <input type="checkbox" />
-            <span>Remember me</span>
-       
+            <input type="checkbox" id='remember-me' name="remember-me" />
+            <label htmlFor="Password">Remember me</label>
 
             <a href="#">Forgot password</a>
           </div>

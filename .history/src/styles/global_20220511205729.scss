@@ -2,16 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
-}
-
-body {
-  background-color: var(--bdoy-color);
 }
 
 .grid {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 :root {

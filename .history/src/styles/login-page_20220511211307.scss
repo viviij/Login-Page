@@ -1,0 +1,49 @@
+#auth {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  
+  main {
+    flex: 5;
+  
+    margin-left: 3.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main-content {
+      .welcome {
+        strong {
+          padding: 0 0 66px;
+        
+          font-family: 'Montserrat', sans-serif;
+  
+          font-size: 32px;
+        }
+
+        >p {
+          margin-bottom: 2rem;
+        }
+      }
+      
+      
+    }
+  }
+
+
+
+  aside {
+    background-image: url(../assets/login-page/Ilustration.svg);
+    background-size: 720px 690px ;
+    
+    flex: 9;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+}
